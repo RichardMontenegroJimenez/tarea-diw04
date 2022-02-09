@@ -11,6 +11,16 @@
       <InformacionProducto />
     </div>
   </div>
+  <div class="contenedor">
+    <div id="descripcion">
+      <DescripcionProducto />
+    </div>
+    <div class="espacio"></div>
+    <div id="video">
+      <VideoProducto />
+    </div>
+  </div>
+  <Footer />
 </template>
 
 <script>
@@ -19,6 +29,9 @@ import Busqueda from './components/Busqueda.vue'
 import Bredcrumb from './components/Breadcrumb.vue'
 import GaleriaProducto from './components/GaleriaProducto.vue'
 import InformacionProducto from './components/InformacionProducto.vue'
+import VideoProducto from './components/VideoProducto.vue'
+import DescripcionProducto from './components/DescripcionProducto.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
@@ -27,7 +40,10 @@ export default {
     Busqueda, 
     Bredcrumb, 
     GaleriaProducto, 
-    InformacionProducto
+    InformacionProducto,
+    VideoProducto,
+    DescripcionProducto,
+    Footer
   }
 }
 </script>
