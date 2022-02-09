@@ -31,12 +31,12 @@ export default {
 <style>
 #logo{
     text-align: start;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #logo h1{
     color: rgb(161, 60, 207);
-    font-size: x-large;
+    font-size: large;
 }
 #logo h1 span{
     color: rgb(231, 160, 28);
