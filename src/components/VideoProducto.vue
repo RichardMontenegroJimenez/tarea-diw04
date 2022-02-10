@@ -12,5 +12,7 @@ export default {
 </script>
 
 <style>
-
+  iframe{
+    padding: 1em;
+  }
 </style>

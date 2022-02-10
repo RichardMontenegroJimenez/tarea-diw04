@@ -2,24 +2,26 @@
   <Cabecera />
   <Busqueda />
   <Bredcrumb />
-  <div class="contenedor">
-    <div id="imagen_producto">
-      <GaleriaProducto />
+  <div id="main_container">
+    <div class="contenedor">
+      <div id="imagen_producto">
+        <GaleriaProducto />
+      </div>
+      <div class="espacio">&nbsp;</div>
+      <div id="info_producto">
+        <InformacionProducto />
+      </div>
     </div>
-    <div class="espacio"></div>
-    <div id="info_producto">
-      <InformacionProducto />
+    <div class="contenedor">
+      <div id="descripcion">
+        <DescripcionProducto />
+      </div>
+      <div class="espacio">&nbsp;</div>
+      <div id="video">
+        <VideoProducto />
+      </div>
     </div>
-  </div>
-  <div class="contenedor">
-    <div id="descripcion">
-      <DescripcionProducto />
-    </div>
-    <div class="espacio"></div>
-    <div id="video">
-      <VideoProducto />
-    </div>
-  </div>
+  </div>  
   <Footer />
 </template>
 
@@ -67,10 +69,17 @@ export default {
   border: none;
   cursor:pointer;
 }
+#main_container{
+  width: 1500px;
+  margin: auto;
+}
 .contenedor{
   display: flex;
   flex-direction: row;
-  width: 1500px;
+}
+#info_producto{
+  display: flex;
+  align-items: center;
 }
 .espacio{
   display: flex;

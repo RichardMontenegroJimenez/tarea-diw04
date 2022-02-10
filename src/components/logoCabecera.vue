@@ -7,7 +7,7 @@
         <nav id="menu_principal">
             <ul>
                 <li><a href="#">INICIO</a></li>
-                <li><a href="#">PC GAMING </a></li>
+                <li><a href="#">PC&nbsp;GAMING </a></li>
                 <li><a href="#">AURICULARES</a></li>
                 <li><a href="#">TECLADOS</a></li>
                 <li><a href="#">RATONES</a></li>
@@ -47,6 +47,10 @@ export default {
     padding: 0.5em;
     display:flex;
     justify-content: space-between;
+    min-width: 930px;
+}
+#login{
+    min-width: 240px;
 }
 #login a{
     color:rgb(231, 160, 28);
