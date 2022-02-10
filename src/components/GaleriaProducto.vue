@@ -1,13 +1,13 @@
 <template>
   <section id="producto-imagen">
       <div class="img-big"> 
-          <img v-bind:src="fotos[0]" alt="Portátil Huawei MateBoot X">
+          <img v-bind:src="fotos[0]" alt="Logitech Pro X Superlight Ratón Gaming">
       </div>
         <div class="img-mini">
-          <a @click="cambiarFoto(1)"><img  v-bind:src="fotos[1]" alt="Portátil Huawei MateBoot X"></a>
-          <a @click="cambiarFoto(2)"><img  v-bind:src="fotos[2]" alt="Portátil Huawei MateBoot X"></a>
-          <a @click="cambiarFoto(3)"><img  v-bind:src="fotos[3]" alt="Portátil Huawei MateBoot X"></a>
-          <a @click="cambiarFoto(4)"><img  v-bind:src="fotos[4]" alt="Portátil Huawei MateBoot X"></a>
+          <a @click="cambiarFoto(1)"><img  v-bind:src="fotos[1]" alt="Logitech Pro X Superlight Ratón Gaming" copyright="cc-by Logitech"></a>
+          <a @click="cambiarFoto(2)"><img  v-bind:src="fotos[2]" alt="Logitech Pro X Superlight Ratón Gaming" copyright="cc-by Logitech"></a>
+          <a @click="cambiarFoto(3)"><img  v-bind:src="fotos[3]" alt="Logitech Pro X Superlight Ratón Gaming" copyright="cc-by Logitech"></a>
+          <a @click="cambiarFoto(4)"><img  v-bind:src="fotos[4]" alt="Logitech Pro X Superlight Ratón Gaming" copyright="cc-by Logitech"></a>
         </div>
       </section> 
 </template>
